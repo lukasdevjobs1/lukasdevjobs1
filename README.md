@@ -18,12 +18,28 @@ Me chamo Lukas Albertino Gomes, tenho 31 anos e sou natural de Fortaleza-CE.  At
             src="https://custom-icon-badges.demolab.com/github/followers/lukasdevjobs1?color=236ad3&labelColor=1155ba&style=for-the-badge&logo=github&label=Seguidores&logoColor=white"
         />
     </a>
+    <a href="https://discord.com/users/lukas#4775">
+   <img src="https://img.shields.io/static/v1?message=Discord&logo=discord&label=&color=7289DA&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="discord logo"  /> 
+ <a href="https://x.com/LukDev13">
+  <img src="https://img.shields.io/static/v1?message=Twitter&logo=twitter&label=&color=1DA1F2&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="twitter logo"  />
+    <a href="https://wa.me/5585992570216">
+  <img src="https://img.shields.io/static/v1?message=Whatsapp&logo=whatsapp&label=&color=25D366&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="whatsapp logo"  />
+
+<a href="mailto:luk.devjobs@gmail.com">
+ <img src="https://img.shields.io/static/v1?message=Gmail&logo=gmail&label=&color=D14836&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="gmail logo"  />
+
+ <a href="https://www.linkedin.com/in/lukas-gomes-4470a2269/">
+  <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="linkedin logo"  />
+
+
     
 </p>
 
 ---
 
 ### 🤖 Linguagens e Tecnologias
+
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-line-wordmark.svg" height="100" alt="amazonwebservices logo"  />
 
 <img 
     align="left" 
