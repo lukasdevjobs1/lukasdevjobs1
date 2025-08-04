@@ -39,7 +39,15 @@ Me chamo Lukas Albertino Gomes, tenho 31 anos e sou natural de Fortaleza-CE.  At
 
 ### 🤖 Linguagens e Tecnologias
 
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-line-wordmark.svg" height="100" alt="amazonwebservices logo"  />
+
+
+<img 
+    align="left" 
+    alt="HTML"
+    title="HTML" 
+    width="30px" 
+    style="padding-right: 10px;"
+    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" />
 
 <img 
     align="left" 
