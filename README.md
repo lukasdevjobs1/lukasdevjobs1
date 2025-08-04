@@ -1,4 +1,4 @@
-#  Lukas gomes
+# 🧑🏽‍💻 Lukas gomes
 
 **`Desenvolvedor FullStack`**
 
@@ -25,8 +25,8 @@ Me chamo Lukas Albertino Gomes, tenho 31 anos e sou natural de Fortaleza-CE.  At
     <a href="https://wa.me/5585992570216">
   <img src="https://img.shields.io/static/v1?message=Whatsapp&logo=whatsapp&label=&color=25D366&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="whatsapp logo"  />
 
-<a href="mailto:luk.devjobs@gmail.com">
- <img src="https://img.shields.io/static/v1?message=Gmail&logo=gmail&label=&color=D14836&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="gmail logo"  />
+<a href="https://mail.google.com/mail/?view=cm&fs=1&to=luk.devjobs@gmail.com" target="_blank">
+ <img src="https://img.shields.io/static/v1?message=Gmail&logo=gmail&label=&color=D14836&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="gmail logo"  /> 
 
  <a href="https://www.linkedin.com/in/lukas-gomes-4470a2269/">
   <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="linkedin logo"  />
