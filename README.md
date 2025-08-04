@@ -2,7 +2,7 @@
 
 **`Desenvolvedor FullStack`**
 
-Me chamo Lukas Albertino Gomes, tenho 31 anos e sou natural de Fortaleza-CE.  Atualmente, estou cursando Análise e Desenvolvimento de Sistemas na UniSantaCruz. Sou apaixonado por tecnologia e compartilho meu conhecimento através do GitHub e LinkedIn, e também pelo Twitter(X) 
+Me chamo Lukas Albertino Gomes, sou natural de Fortaleza-CE.  Atualmente, estou cursando Análise e Desenvolvimento de Sistemas na UniSantaCruz. Sou apaixonado por tecnologia e compartilho meu conhecimento através do GitHub e LinkedIn, e também pelo Twitter(X) 
 
    <a href="https://github.com/lukasdevjobs1?tab=repositories&sort=stargazers">
         <img 
