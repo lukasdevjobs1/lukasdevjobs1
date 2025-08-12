@@ -32,7 +32,7 @@ Me chamo Lukas Albertino Gomes, sou natural de Fortaleza-CE.  Atualmente, estou 
   <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="linkedin logo"  />
 
 <a href="https://github.com/lukasdevjobs1?tab=repositories/">
-   <img <img width="111" height="40" alt="image" src="https://github.com/user-attachments/assets/0172311f-4a0e-4429-832e-237aebe4d49a" />
+   <img <img width="111" height="35" alt="image" src="https://github.com/user-attachments/assets/0172311f-4a0e-4429-832e-237aebe4d49a"  />
 
 
 
