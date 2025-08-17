@@ -18,28 +18,21 @@ Me chamo Lukas Albertino Gomes, sou natural de Fortaleza-CE.  Atualmente, estou 
             src="https://custom-icon-badges.demolab.com/github/followers/lukasdevjobs1?color=236ad3&labelColor=1155ba&style=for-the-badge&logo=github&label=Seguidores&logoColor=white"
         />
     </a>
-    <a href="https://discord.com/users/lukas#4775">
-   <img src="https://img.shields.io/static/v1?message=Discord&logo=discord&label=&color=7289DA&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="discord logo"  /> 
- <a href="https://x.com/LukDev13">
-  <img src="https://img.shields.io/static/v1?message=Twitter&logo=twitter&label=&color=1DA1F2&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="twitter logo"  />
+     <a href="https://discord.com/users/lukas#4775">
+        <img src="https://img.shields.io/static/v1?message=Discord&logo=discord&label=&color=7289DA&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="discord logo" />
+    </a>
+    <a href="https://x.com/LukDev13">
+        <img src="https://img.shields.io/static/v1?message=Twitter&logo=twitter&label=&color=1DA1F2&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="twitter logo" />
+    </a>
     <a href="https://wa.me/5585992570216">
-  <img src="https://img.shields.io/static/v1?message=Whatsapp&logo=whatsapp&label=&color=25D366&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="whatsapp logo"  />
-
-<a href="https://mail.google.com/mail/?view=cm&fs=1&to=luk.devjobs@gmail.com" target="_blank">
- <img src="https://img.shields.io/static/v1?message=Gmail&logo=gmail&label=&color=D14836&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="gmail logo"  /> 
-
- <a href="https://www.linkedin.com/in/lukas-gomes-4470a2269/">
-  <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="linkedin logo"  />
-
-<a href="https://github.com/lukasdevjobs1?tab=repositories">
-   <img <img width="111" height="35" alt="image" src="https://github.com/user-attachments/assets/0172311f-4a0e-4429-832e-237aebe4d49a"  />
-
-
-
-
-
-    
-</p>
+        <img src="https://img.shields.io/static/v1?message=Whatsapp&logo=whatsapp&label=&color=25D366&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="whatsapp logo" />
+    </a>
+    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=luk.devjobs@gmail.com" target="_blank">
+        <img src="https://img.shields.io/static/v1?message=Gmail&logo=gmail&label=&color=D14836&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="gmail logo" />
+    </a>
+    <a href="https://www.linkedin.com/in/lukas-gomes-4470a2269/">
+        <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="linkedin logo" />
+    </a>
 
 ---
 
@@ -101,6 +94,10 @@ Me chamo Lukas Albertino Gomes, sou natural de Fortaleza-CE.  Atualmente, estou 
 
 <br/>
 <br/>
+
+### 🚀 Projetos Recentes
+
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=lukasdevjobs1&repo=Git_projects&theme=tokyonight)](https://github.com/lukasdevjobs1/Git_projects)
 
 ### 📊 Estatísticas
 
