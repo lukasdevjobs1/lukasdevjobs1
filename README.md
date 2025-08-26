@@ -4,20 +4,20 @@
 
 Me chamo Lukas Albertino Gomes, sou natural de Fortaleza-CE.  Atualmente, estou cursando Análise e Desenvolvimento de Sistemas na UniSantaCruz. Sou apaixonado por tecnologia e compartilho meu conhecimento através do GitHub e LinkedIn, e também pelo Twitter(X) 
 
-   <a href="https://github.com/lukasdevjobs1?tab=repositories&sort=stargazers">
-        <img 
-            alt="Total de estrelas" 
-            title="Total de estrelas GitHub" 
-            src="https://custom-icon-badges.demolab.com/github/stars/lukasdevjobs1?color=55960c&style=for-the-badge&labelColor=488207&logo=star&label=estrelas"
-        />
-    </a>
-    <a href="https://github.com/lukasdevjobs1?tab=followers">
-        <img 
-            alt="Seguidores" 
-            title="Me siga no GitHub" 
-            src="https://custom-icon-badges.demolab.com/github/followers/lukasdevjobs1?color=236ad3&labelColor=1155ba&style=for-the-badge&logo=github&label=Seguidores&logoColor=white"
-        />
-    </a>
+<a href="https://github.com/lukasdevjobs1?tab=repositories&sort=stargazers">
+    <img 
+        alt="Total de estrelas" 
+        title="Total de estrelas GitHub" 
+        src="https://custom-icon-badges.demolab.com/github/stars/lukasdevjobs1?color=55960c&style=for-the-badge&labelColor=488207&logo=star&label=estrelas"
+    />
+</a>
+<a href="https://github.com/lukasdevjobs1?tab=followers">
+    <img 
+        alt="Seguidores" 
+        title="Me siga no GitHub" 
+        src="https://custom-icon-badges.demolab.com/github/followers/lukasdevjobs1?color=236ad3&labelColor=1155ba&style=for-the-badge&logo=github&label=Seguidores&logoColor=white"
+    />
+</a>
      <a href="https://discord.com/users/lukas#4775">
         <img src="https://img.shields.io/static/v1?message=Discord&logo=discord&label=&color=7289DA&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="discord logo" />
     </a>
