@@ -1,6 +1,6 @@
 {
   "primaryColor": "#0969da",
-  "chatbotName": "LukG AI Assistant",
+  "chatbotName": "lukasdevjobs1 AI Assistant",
   "buttonColor": "#0969da",
   "backgroundColor": "#0d1117",
   "headerColor": "#161b22",
@@ -10,7 +10,7 @@
   "botText": "#f0f6fc",
   "iconUrl": "./botData/avatar.webp",
   "botAvatar": "./botData/avatar.webp",
-  "welcomeBubble": "👋 Olá! Sou o assistente do LukG",
-  "firstBotMessage": "Oi! Sou o assistente pessoal do LukG. Posso te ajudar com informações sobre projetos, tecnologias e experiências dele. O que você gostaria de saber?",
+  "welcomeBubble": "👋 Olá! Sou o assistente do lukasdevjobs1",
+  "firstBotMessage": "Oi! Sou o assistente pessoal do lukasdevjobs1. Posso te ajudar com informações sobre projetos, tecnologias e experiências dele. O que você gostaria de saber?",
   "typingDelay": 0.8
 }
