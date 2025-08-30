@@ -2,7 +2,17 @@
 
 **`Desenvolvedor FullStack`**
 
-Me chamo Lukas Albertino Gomes, sou natural de Fortaleza-CE.  Atualmente, estou cursando Análise e Desenvolvimento de Sistemas na UniSantaCruz. Sou apaixonado por tecnologia e compartilho meu conhecimento através do GitHub e LinkedIn, e também pelo Twitter(X) 
+Me chamo Lukas Albertino Gomes, sou natural de Fortaleza-CE.  Atualmente, estou cursando Análise e Desenvolvimento de Sistemas na UniSantaCruz. Sou apaixonado por tecnologia e compartilho meu conhecimento através do GitHub e LinkedIn, e também pelo Twitter(X)
+
+## 🤖 Chat AI Disponível!
+
+<div align="center">
+    <a href="https://lukasdevjobs1.github.io/lukasdevjobs1/">
+        <img src="https://img.shields.io/badge/💬_Converse_Comigo-Chat_AI-0969da?style=for-the-badge&logo=robot&logoColor=white" alt="Chat AI" />
+    </a>
+</div>
+
+> 🚀 **Converse com meu assistente pessoal!** Ele pode responder sobre meus projetos, tecnologias e experiências. Funciona no Chrome com flags experimentais ativadas. 
 
 <a href="https://github.com/lukasdevjobs1?tab=repositories&sort=stargazers">
     <img 
