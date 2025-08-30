@@ -7,10 +7,10 @@ import { ChatbotController } from './controllers/chatBotController.js';
     const fromMainProject = (path) => new URL(path, root).toString();
     
     const [css, html, systemPrompt, config] = await Promise.all([
-        fetch(fromMainProject('./sdk/ew-chatbot.css')).then(r => r.text()),
-        fetch(fromMainProject('./sdk/ew-chatbot.html')).then(r => r.text()),
-        fetch('./botData/systemPrompt.txt').then(r => r.text()),
-        fetch('./botData/chatbot-config.json').then(r => r.json()),
+        fetch('../ew-chatbot.css').then(r => r.text()),
+        fetch('../ew-chatbot.html').then(r => r.text()),
+        fetch('../../botData/systemPrompt.txt').then(r => r.text()),
+        fetch('../../botData/chatbot-config.json').then(r => r.json()),
     ]);
 
     const style = document.createElement('style');
