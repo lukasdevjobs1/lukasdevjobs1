@@ -10,7 +10,7 @@
   "botText": "#f0f6fc",
   "iconUrl": "./botData/avatar.webp",
   "botAvatar": "./botData/avatar.webp",
-  "welcomeBubble": "👋 Olá! Sou o assistente do lukasdevjobs1",
-  "firstBotMessage": "Oi! Sou o assistente pessoal do lukasdevjobs1. Posso te ajudar com informações sobre projetos, tecnologias e experiências dele. O que você gostaria de saber?",
+  "welcomeBubble": "👋 Oi! Sou o assistente do Lukas - Desenvolvedor Full Stack",
+  "firstBotMessage": "Olá! 🚀 Sou o assistente do Lukas Gomes, desenvolvedor Full Stack de Fortaleza-CE!\n\n💻 Quer conhecer os projetos dele? Confira o GitHub!\n⚙️ Tecnologias: React, JavaScript, Python, AWS e mais!\n📞 Recrutador? Vamos conversar sobre oportunidades!\n\nO que te interessa mais?",
   "typingDelay": 0.8
 }
