@@ -12,7 +12,7 @@ Me chamo Lukas Albertino Gomes, sou natural de Fortaleza-CE.  Atualmente, estou 
     </a>
 </div>
 
-> 🚀 **Converse com meu assistente pessoal!** Ele pode responder sobre meus projetos, tecnologias e experiências. Funciona no Chrome com flags experimentais ativadas. 
+> 🚀 **Converse com meu assistente pessoal!** Otimizado para recrutadores e curiosos - apresenta automaticamente meus projetos, tecnologias (React, JavaScript, Python, AWS) e facilita networking profissional. Funciona no Chrome com flags experimentais ativadas. 
 
 <a href="https://github.com/lukasdevjobs1?tab=repositories&sort=stargazers">
     <img 
