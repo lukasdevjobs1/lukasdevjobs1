@@ -6,7 +6,10 @@ export class PromptService {
 
     try {
       this.#session = await LanguageModel.create({
-        systemPrompt: initialPrompts
+        initialPrompts: [{
+          role: "system",
+          content: initialPrompts
+        }]
       });
       return this.#session;
     } catch (error) {
