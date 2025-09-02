@@ -1,5 +1,5 @@
 import { ChatbotView } from './views/chatBotView.js';
-import { PromptService } from './services/promptService.js'
+import { HybridPromptService } from './services/hybridPromptService.js'
 import { ChatbotController } from './controllers/chatBotController.js';
 
 (async () => {
@@ -21,7 +21,7 @@ import { ChatbotController } from './controllers/chatBotController.js';
     container.innerHTML = html;
     document.body.appendChild(container);
 
-    const promptService = new PromptService();
+    const promptService = new HybridPromptService();
     const chatbotView = new ChatbotView(config);
     const controller = new ChatbotController({ chatbotView, promptService });
     
