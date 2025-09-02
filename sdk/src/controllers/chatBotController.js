@@ -36,7 +36,7 @@ export class ChatbotController {
       this.#abortController = new AbortController();
 
       const contentnode = this.#chatbotView.createStreamingBotMessage();
-      const response = this.#promptService.prompt(
+      const response = await this.#promptService.prompt(
         userMsg,
         this.#abortController.signal
       );
