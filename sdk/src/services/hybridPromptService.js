@@ -9,28 +9,30 @@ export class HybridPromptService {
   }
 
   async init(systemPrompt) {
-    // Tenta Chrome AI primeiro
+    // Usa Groq primeiro (funciona sempre)
+    try {
+      await this.groqService.init(systemPrompt);
+      this.activeService = this.groqService;
+      console.log('✅ Usando Groq API (confiável)');
+      return true;
+    } catch (error) {
+      console.warn('Groq falhou, tentando Chrome AI:', error);
+    }
+
+    // Fallback para Chrome AI (se disponível)
     if (window.LanguageModel) {
       try {
         await this.chromeService.init(systemPrompt);
         this.activeService = this.chromeService;
-        console.log('✅ Usando Chrome AI');
+        console.log('✅ Usando Chrome AI (fallback)');
         return true;
       } catch (error) {
-        console.warn('Chrome AI falhou, usando Groq:', error);
+        console.error('Chrome AI também falhou:', error);
       }
     }
 
-    // Fallback para Groq
-    try {
-      await this.groqService.init(systemPrompt);
-      this.activeService = this.groqService;
-      console.log('✅ Usando Groq API');
-      return true;
-    } catch (error) {
-      console.error('Ambos serviços falharam:', error);
-      return false;
-    }
+    console.error('Todos os serviços falharam');
+    return false;
   }
 
   async prompt(text, signal) {
