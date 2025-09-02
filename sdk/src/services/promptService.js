@@ -1,8 +1,11 @@
 export class PromptService {
   #session = null;
+  #initialPrompts = null;
   
   async init(initialPrompts) {
     if (!window.LanguageModel) return;
+    
+    this.#initialPrompts = initialPrompts;
 
     try {
       this.#session = await LanguageModel.create({
@@ -19,6 +22,10 @@ export class PromptService {
   }
 
   async prompt(text, signal) {
+    if (!this.#session && this.#initialPrompts) {
+      await this.init(this.#initialPrompts);
+    }
+    
     if (!this.#session) {
       throw new Error('Sessão de IA não disponível');
     }
