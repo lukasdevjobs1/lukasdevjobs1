@@ -40,18 +40,6 @@ export class PromptService {
       content: text,
     });
 
-    try {
-      const response = await this.#session.promptStreaming(text, { signal });
-      return response;
-    } catch (error) {
-      console.error('Erro no promptStreaming:', error);
-      // Fallback para prompt normal se streaming falhar
-      const fallbackResponse = await this.#session.prompt(text, { signal });
-      return this.#createAsyncIterator(fallbackResponse);
-    }
-  }
-
-  async *#createAsyncIterator(text) {
-    yield text;
+    return this.#session.promptStreaming(this.#messages, { signal });
   }
 }
