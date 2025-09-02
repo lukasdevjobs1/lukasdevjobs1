@@ -89,19 +89,18 @@ export class ChatbotController {
 
   #checkRequirements() {
     const errors = [];
-    const isChrome = window.chrome;
-    
-    if (!isChrome) {
+    const iChrome = window.chrome;
+    if (!iChrome) {
       errors.push(
-        "Este recurso só funciona no Google Chrome ou Chrome Canary (versão recente)."
+        "⚠️ Este recurso só funciona no Google Chrome ou Chrome Canary (versão recente)."
       );
     }
-    
-    if (!window.ai || !window.ai.languageModel) {
-      errors.push("As APIs nativas de IA não estão ativas.");
-      errors.push("Ative as seguintes flags em chrome://flags/:");
-      errors.push("- Prompt API for Gemini Nano");
-      errors.push("- Optimization Guide On Device Model");
+    if (!(("LanguageModel" in window))) {
+      errors.push("⚠️ As APIs nativas de IA não estão ativas.");
+      errors.push("Ative a seguinte flag em chrome://flags/:");
+      errors.push(
+        "- Prompt API for Gemini Nano (chrome://flags/#prompt-api-for-gemini-nano)"
+      );
       errors.push("Depois reinicie o Chrome e tente novamente.");
     }
 
