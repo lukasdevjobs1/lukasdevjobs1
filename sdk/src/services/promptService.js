@@ -1,23 +1,12 @@
 export class PromptService {
-  #messages = [];
   #session = null;
   
   async init(initialPrompts) {
     if (!window.LanguageModel) return;
 
-    this.#messages.push({
-      role: "system",
-      content: initialPrompts,
-    });
-
-    return this.#createSession();
-  }
-
-  async #createSession() {
     try {
       this.#session = await LanguageModel.create({
-        initialPrompts: this.#messages,
-        expectedInputLanguages: ["pt"],
+        systemPrompt: initialPrompts
       });
       return this.#session;
     } catch (error) {
@@ -28,18 +17,14 @@ export class PromptService {
 
   async prompt(text, signal) {
     if (!this.#session) {
-      await this.#createSession();
-    }
-    
-    if (!this.#session) {
       throw new Error('Sessão de IA não disponível');
     }
 
-    this.#messages.push({
-      role: "user",
-      content: text,
-    });
+    const response = await this.#session.prompt(text, { signal });
+    return this.#createAsyncIterator(response);
+  }
 
-    return this.#session.promptStreaming(this.#messages, { signal });
+  async *#createAsyncIterator(text) {
+    yield text;
   }
 }
