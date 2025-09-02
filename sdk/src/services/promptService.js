@@ -1,23 +1,21 @@
 export class PromptService {
-  #messages = [];
   #session = null;
+  #systemPrompt = "";
   
   async init(initialPrompts) {
-    if (!window.LanguageModel) return;
+    if (!window.ai || !window.ai.languageModel) {
+      console.error('API de IA não disponível');
+      return null;
+    }
 
-    this.#messages.push({
-      role: "system",
-      content: initialPrompts,
-    });
-
+    this.#systemPrompt = initialPrompts;
     return this.#createSession();
   }
 
   async #createSession() {
     try {
-      this.#session = await LanguageModel.create({
-        initialPrompts: this.#messages,
-        expectedInputLanguages: ["pt"],
+      this.#session = await window.ai.languageModel.create({
+        systemPrompt: this.#systemPrompt
       });
       return this.#session;
     } catch (error) {
@@ -35,19 +33,18 @@ export class PromptService {
       throw new Error('Sessão de IA não disponível');
     }
 
-    this.#messages.push({
-      role: "user",
-      content: text,
-    });
-
     try {
-      const response = await this.#session.promptStreaming(text, { signal });
-      return response;
+      // Tenta streaming primeiro
+      if (this.#session.promptStreaming) {
+        return this.#session.promptStreaming(text, { signal });
+      }
+      
+      // Fallback para prompt normal
+      const response = await this.#session.prompt(text, { signal });
+      return this.#createAsyncIterator(response);
     } catch (error) {
-      console.error('Erro no promptStreaming:', error);
-      // Fallback para prompt normal se streaming falhar
-      const fallbackResponse = await this.#session.prompt(text, { signal });
-      return this.#createAsyncIterator(fallbackResponse);
+      console.error('Erro no prompt:', error);
+      throw error;
     }
   }
 
