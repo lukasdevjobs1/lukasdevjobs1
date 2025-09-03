@@ -1,6 +1,9 @@
 export default async function handler(req, res) {
-  // CORS restrito para GitHub Pages
-  res.setHeader('Access-Control-Allow-Origin', 'https://lukasdevjobs1.github.io');
+  // CORS para GitHub Pages e Vercel
+  const origin = req.headers.origin;
+  if (origin && (origin.includes('lukasdevjobs1.github.io') || origin.includes('lukasdevjobs1') && origin.includes('vercel.app'))) {
+    res.setHeader('Access-Control-Allow-Origin', origin);
+  }
   res.setHeader('Access-Control-Allow-Methods', 'POST, OPTIONS');
   res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
 
