@@ -17,8 +17,18 @@ export default async function handler(req, res) {
 
   const GROQ_API_KEY = process.env.GROQ_API_KEY;
   
+  // Debug logs
+  console.log('Environment variables:', Object.keys(process.env));
+  console.log('GROQ_API_KEY exists:', !!GROQ_API_KEY);
+  
   if (!GROQ_API_KEY) {
-    return res.status(500).json({ error: 'API key not configured' });
+    return res.status(500).json({ 
+      error: 'API key not configured',
+      debug: {
+        envKeys: Object.keys(process.env).filter(k => k.includes('GROQ')),
+        hasGroqKey: !!process.env.GROQ_API_KEY
+      }
+    });
   }
 
   try {
