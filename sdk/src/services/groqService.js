@@ -26,7 +26,13 @@ export class GroqService {
       throw new Error('Groq não configurado');
     }
 
-    console.log('Usando API real da Groq com key:', this.config.groq.apiKey.substring(0, 10) + '...');
+    // Detecta se está rodando no GitHub Pages ou localmente
+    const isProduction = window.location.hostname === 'lukasdevjobs1.github.io';
+    const apiUrl = isProduction 
+      ? 'https://lukasdevjobs1.vercel.app/api/chat'  // Servidor proxy
+      : this.config.groq.baseUrl;  // API direta local
+    
+    console.log('Usando:', isProduction ? 'Servidor Proxy Vercel' : 'API Groq direta');
 
     // Detecta se está perguntando sobre um projeto específico
     const projectName = this.detectProjectMention(text);
@@ -42,12 +48,16 @@ export class GroqService {
     }
 
     try {
-      const response = await fetch(this.config.groq.baseUrl, {
+      const headers = { 'Content-Type': 'application/json' };
+      
+      // Adiciona Authorization apenas se não for produção (proxy)
+      if (!isProduction) {
+        headers['Authorization'] = `Bearer ${this.config.groq.apiKey}`;
+      }
+      
+      const response = await fetch(apiUrl, {
         method: 'POST',
-        headers: {
-          'Authorization': `Bearer ${this.config.groq.apiKey}`,
-          'Content-Type': 'application/json'
-        },
+        headers,
         body: JSON.stringify({
           model: this.config.groq.model,
           messages: [

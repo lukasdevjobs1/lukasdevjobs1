@@ -1,0 +1,10 @@
+{
+  "functions": {
+    "api/chat.js": {
+      "runtime": "nodejs18.x"
+    }
+  },
+  "env": {
+    "GROQ_API_KEY": "@groq-api-key"
+  }
+}
