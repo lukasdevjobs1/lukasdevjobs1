@@ -76,7 +76,7 @@ GROQ_API_KEY=sua_api_key_aqui
 git clone https://github.com/lukasdevjobs1/lukasdevjobs1.git
 
 # Entre no diretório
-cd lukasdevjobs1
+cd "seu_repositorio_aqui"
 
 # Execute localmente
 npm run dev
