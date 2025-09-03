@@ -46,7 +46,8 @@ export class GroqService {
       ? 'https://lukasdevjobs1.vercel.app/api/chat'  // Servidor proxy
       : this.config.groq.baseUrl;  // API direta local
     
-    console.log('Usando:', isProduction ? 'Servidor Proxy Vercel' : 'API Groq direta');
+    console.log('Ambiente:', isProduction ? 'Produção (GitHub Pages)' : 'Local');
+    console.log('URL da API:', apiUrl);
 
     // Detecta se está perguntando sobre um projeto específico
     const projectName = this.detectProjectMention(text);
@@ -65,8 +66,11 @@ export class GroqService {
       const headers = { 'Content-Type': 'application/json' };
       
       // Adiciona Authorization apenas se não for produção (proxy)
-      if (!isProduction) {
+      if (!isProduction && this.config.groq.apiKey !== 'proxy_mode') {
         headers['Authorization'] = `Bearer ${this.config.groq.apiKey}`;
+        console.log('Usando API key local');
+      } else {
+        console.log('Usando servidor proxy (sem API key)');
       }
       
       const response = await fetch(apiUrl, {
