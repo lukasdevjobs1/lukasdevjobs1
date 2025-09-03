@@ -11,18 +11,32 @@ export class GroqService {
   async init(systemPrompt) {
     this.systemPrompt = systemPrompt;
     
+    // Configuração padrão (não precisa de arquivo JSON)
+    this.config = {
+      groq: {
+        apiKey: 'proxy_mode', // Não usado em produção
+        model: 'llama-3.1-8b-instant',
+        baseUrl: 'https://api.groq.com/openai/v1/chat/completions'
+      }
+    };
+    
+    // Tenta carregar arquivo de configuração (apenas para desenvolvimento local)
     try {
       const response = await fetch('./botData/api-config.json');
-      this.config = await response.json();
-      return true;
+      if (response.ok) {
+        const fileConfig = await response.json();
+        this.config = fileConfig;
+        console.log('Configuração carregada do arquivo');
+      }
     } catch (error) {
-      console.error('Erro ao carregar config da API:', error);
-      return false;
+      console.log('Usando configuração padrão (modo proxy)');
     }
+    
+    return true;
   }
 
   async prompt(text, signal) {
-    if (!this.config) {
+    if (!this.config || !this.config.groq) {
       throw new Error('Groq não configurado');
     }
 
