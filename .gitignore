@@ -1,5 +1,5 @@
 # Dados sensíveis
-botData/api-config.json
+# botData/api-config.json - temporariamente permitido para GitHub Pages
 .env
 *.key
 
