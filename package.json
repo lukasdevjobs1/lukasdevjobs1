@@ -4,8 +4,7 @@
   "description": "Chatbot AI pessoal com integração GitHub",
   "type": "module",
   "scripts": {
-    "dev": "python -m http.server 8000",
-    "build": "echo 'Static site - no build needed'"
+    "dev": "python -m http.server 8000"
   },
   "dependencies": {},
   "engines": {
