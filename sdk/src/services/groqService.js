@@ -40,14 +40,22 @@ export class GroqService {
       throw new Error('Groq não configurado');
     }
 
-    // Detecta se está rodando no GitHub Pages ou localmente
-    const isProduction = window.location.hostname === 'lukasdevjobs1.github.io';
+    // Detecta se está rodando no GitHub Pages ou Vercel
+    const isGitHubPages = window.location.hostname === 'lukasdevjobs1.github.io';
+    const isVercel = window.location.hostname.includes('vercel.app');
+    const isProduction = isGitHubPages || isVercel;
+    
     const apiUrl = isProduction 
       ? 'https://lukasdevjobs1.vercel.app/api/chat'  // Servidor proxy
       : this.config.groq.baseUrl;  // API direta local
     
-    console.log('Ambiente:', isProduction ? 'Produção (GitHub Pages)' : 'Local');
+    let ambiente = 'Local';
+    if (isGitHubPages) ambiente = 'GitHub Pages';
+    if (isVercel) ambiente = 'Vercel';
+    
+    console.log('Ambiente:', ambiente);
     console.log('URL da API:', apiUrl);
+    console.log('Hostname:', window.location.hostname);
 
     // Detecta se está perguntando sobre um projeto específico
     const projectName = this.detectProjectMention(text);

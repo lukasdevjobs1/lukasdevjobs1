@@ -1,9 +1,10 @@
 // Vercel Serverless Function - Proxy para Groq API
 export default async function handler(req, res) {
-  // Configurar CORS
-  res.setHeader('Access-Control-Allow-Origin', '*');
+  // Configurar CORS para GitHub Pages
+  res.setHeader('Access-Control-Allow-Origin', 'https://lukasdevjobs1.github.io');
   res.setHeader('Access-Control-Allow-Methods', 'POST, OPTIONS');
-  res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
+  res.setHeader('Access-Control-Allow-Headers', 'Content-Type, Authorization');
+  res.setHeader('Access-Control-Allow-Credentials', 'false');
 
   // Handle preflight OPTIONS request
   if (req.method === 'OPTIONS') {
