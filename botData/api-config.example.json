@@ -1,7 +1,7 @@
 {
   "groq": {
-    "apiKey": "gsk_demo_key_replace_with_real",
-    "model": "llama3-8b-8192",
+    "apiKey": "SUA_CHAVE_GROQ_AQUI",
+    "model": "llama-3.1-8b-instant",
     "baseUrl": "https://api.groq.com/openai/v1/chat/completions"
   }
 }
