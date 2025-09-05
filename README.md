@@ -8,11 +8,11 @@ Me chamo Lukas Albertino Gomes, sou natural de Fortaleza-CE.  Atualmente, estou 
 
 <div align="center">
     <a href="https://lukasdevjobs1.github.io/profile-chat/">
-        <img src="https://img.shields.io/badge/💬_Converse_Comigo-Chat_AI-0969da?style=for-the-badge&logo=robot&logoColor=white" alt="Chat AI" />
+        <img src="https://img.shields.io/badge/💬_Clique Aqui para acessar meu Profile-0969da?style=for-the-badge&logo=robot&logoColor=white" alt="Chat AI" />
     </a>
 </div>
 
-> 🚀 **Converse com meu assistente pessoal!** Otimizado para recrutadores e curiosos - apresenta automaticamente meus projetos, tecnologias (React, JavaScript, Python, AWS) e facilita networking profissional. Funciona no Chrome com flags experimentais ativadas. 
+> 🚀 **Converse com meu assistente pessoal!** Otimizado para recrutadores e curiosos - apresenta automaticamente meus projetos, tecnologias (JavaScript, Python, AWS & frameworks) e facilita networking profissional.  
 
 <a href="https://github.com/lukasdevjobs1?tab=repositories&sort=stargazers">
     <img 
