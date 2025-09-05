@@ -4,10 +4,10 @@
 
 Me chamo Lukas Albertino Gomes, sou natural de Fortaleza-CE.  Atualmente, estou cursando Análise e Desenvolvimento de Sistemas na UniSantaCruz. Sou apaixonado por tecnologia e compartilho meu conhecimento através do GitHub e LinkedIn, e também pelo Twitter(X)
 
-## 🤖 Chat AI Disponível!
+## Meu Portfolio 
 
 <div align="center">
-    <a href="https://lukasdevjobs1.github.io/lukasdevjobs1/">
+    <a href="https://lukasdevjobs1.github.io/profile-chat/">
         <img src="https://img.shields.io/badge/💬_Converse_Comigo-Chat_AI-0969da?style=for-the-badge&logo=robot&logoColor=white" alt="Chat AI" />
     </a>
 </div>
