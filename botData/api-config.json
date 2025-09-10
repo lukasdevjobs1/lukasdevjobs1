@@ -1,7 +1,0 @@
-{
-  "groq": {
-    "apiKey": "proxy_mode_no_key_needed",
-    "model": "llama-3.1-8b-instant",
-    "baseUrl": "https://api.groq.com/openai/v1/chat/completions"
-  }
-}
