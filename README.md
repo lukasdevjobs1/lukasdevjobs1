@@ -46,7 +46,7 @@ Me chamo Lukas Albertino Gomes, sou natural de Fortaleza-CE.  Atualmente, estou 
 
 ---
 
-### 🤖 Linguagens e Tecnologias
+###  Linguagens e Tecnologias
 
 
 
