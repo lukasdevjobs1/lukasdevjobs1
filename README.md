@@ -1,4 +1,4 @@
-# 🧑🏽‍💻 Lukas gomes
+#  Lukas gomes
 
 **`Desenvolvedor FullStack`**
 
