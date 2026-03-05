@@ -31,7 +31,7 @@ const lukas = {
 
 ---
 
-##  Assistente de Portfólio com IA
+## Assistente de Portfólio com IA
 
 <div align="center">
   <a href="https://lukasdevjobs1.github.io/profile-chat/">
@@ -43,7 +43,7 @@ const lukas = {
 
 ---
 
-##  Linguagens & Tecnologias
+## Linguagens & Tecnologias
 
 **Front-end & Mobile**
 
@@ -72,7 +72,7 @@ const lukas = {
 
 ---
 
-##  Projetos em Destaque
+## Projetos em Destaque
 
 <div align="center">
 
@@ -85,7 +85,7 @@ const lukas = {
 
 ---
 
-##  Estatísticas / Stats
+## Estatísticas / Stats
 
 <div align="center">
   <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=lukasdevjobs1&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&theme=tokyo-night&locale=pt-br&hide_border=false" height="165" alt="stats graph" />
@@ -102,7 +102,7 @@ const lukas = {
 
 ---
 
-##  Contato / Contact
+## Contato / Contact
 
 <div align="center">
   <a href="https://www.linkedin.com/in/lukas-gomes-4470a2269/">
