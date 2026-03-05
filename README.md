@@ -76,10 +76,10 @@ const lukas = {
 
 <div align="center">
 
-[![Portfolio Chat AI](https://github-readme-stats.vercel.app/api/pin/?username=lukasdevjobs1&repo=profile-chat&theme=tokyo-night&show_owner=true)](https://github.com/lukasdevjobs1/profile-chat)
-[![Exercícios Práticos](https://github-readme-stats.vercel.app/api/pin/?username=lukasdevjobs1&repo=Exercicios_praticos_InfinitySchool&theme=tokyo-night&show_owner=true)](https://github.com/lukasdevjobs1/Exercicios_praticos_InfinitySchool)
+[![Portfolio Chat AI](https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=lukasdevjobs1&repo=profile-chat&theme=tokyo-night&show_owner=true)](https://github.com/lukasdevjobs1/profile-chat)
+[![Exercícios Práticos](https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=lukasdevjobs1&repo=Exercicios_praticos_InfinitySchool&theme=tokyo-night&show_owner=true)](https://github.com/lukasdevjobs1/Exercicios_praticos_InfinitySchool)
 
-[![Git Projects](https://github-readme-stats.vercel.app/api/pin/?username=lukasdevjobs1&repo=Git_projects&theme=tokyo-night&show_owner=true)](https://github.com/lukasdevjobs1/Git_projects)
+[![Git Projects](https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=lukasdevjobs1&repo=Git_projects&theme=tokyo-night&show_owner=true)](https://github.com/lukasdevjobs1/Git_projects)
 
 </div>
 
@@ -88,8 +88,8 @@ const lukas = {
 ## 📊 Estatísticas / Stats
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=lukasdevjobs1&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&theme=tokyo-night&locale=pt-br&hide_border=false" height="165" alt="stats graph" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=lukasdevjobs1&locale=pt-br&layout=compact&card_width=320&langs_count=6&theme=tokyo-night&hide_border=false" height="165" alt="languages graph" />
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=lukasdevjobs1&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&theme=tokyo-night&locale=pt-br&hide_border=false" height="165" alt="stats graph" />
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs?username=lukasdevjobs1&locale=pt-br&layout=compact&card_width=320&langs_count=6&theme=tokyo-night&hide_border=false" height="165" alt="languages graph" />
 </div>
 
 <div align="center">
