@@ -24,8 +24,7 @@ const lukas = {
   origem:     "Fortaleza - CE, Brasil 🌵",
   formacao:   "Análise e Desenvolvimento de Sistemas — UniSantaCruz",
   foco:       ["FullStack Development","IA" "Cloud & AWS", "Data Apps and Systems"],
-              
-  contato:    "luk.devjobs@gmail.com"
+contato:    "luk.devjobs@gmail.com"
 };
 ```
 
