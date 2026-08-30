@@ -75,10 +75,11 @@ const lukas = {
 
 <div align="center">
 
-[![Portfolio Chat AI](https://github-readme-stats.vercel.app/api/pin/?username=lukasdevjobs1&repo=profile-chat&theme=tokyo-night&show_owner=true)](https://github.com/lukasdevjobs1/profile-chat)
-[![Exercícios Práticos](https://github-readme-stats.vercel.app/api/pin/?username=lukasdevjobs1&repo=Exercicios_praticos_InfinitySchool&theme=tokyo-night&show_owner=true)](https://github.com/lukasdevjobs1/Exercicios_praticos_InfinitySchool)
-
-[![Git Projects](https://github-readme-stats.vercel.app/api/pin/?username=lukasdevjobs1&repo=Git_projects&theme=tokyo-night&show_owner=true)](https://github.com/lukasdevjobs1/Git_projects)
+| Projeto | Descrição | Stack |
+| :------ | :-------- | :---- |
+| **[💬 Portfolio Chat AI](https://github.com/lukasdevjobs1/profile-chat)** | Assistente de IA otimizado para recrutadores e networking | ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) |
+| **[📚 Exercícios Práticos](https://github.com/lukasdevjobs1/Exercicios_praticos_InfinitySchool)** | Exercícios feitos durante minha jornada de aprendizado | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) |
+| **[🧰 Git Projects](https://github.com/lukasdevjobs1/Git_projects)** | Coleção de projetos demonstrando minhas skills | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) |
 
 </div>
 
@@ -87,16 +88,13 @@ const lukas = {
 ## Estatísticas / Stats
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=lukasdevjobs1&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&theme=tokyo-night&locale=pt-br&hide_border=false" height="165" alt="stats graph" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=lukasdevjobs1&locale=pt-br&layout=compact&card_width=320&langs_count=6&theme=tokyo-night&hide_border=false" height="165" alt="languages graph" />
+  <img src="https://img.shields.io/github/followers/lukasdevjobs1?style=for-the-badge&color=70A5FD&labelColor=1a1b27&logo=github&label=Seguidores" alt="followers" />
+  <img src="https://custom-icon-badges.demolab.com/github/stars/lukasdevjobs1?style=for-the-badge&color=70A5FD&labelColor=1a1b27&logo=star&label=Estrelas" alt="stars" />
+  <img src="https://komarev.com/ghpvc/?username=lukasdevjobs1&color=70A5FD&style=for-the-badge&label=Visitas" alt="profile views" />
 </div>
 
 <div align="center">
   <img src="https://streak-stats.demolab.com?user=lukasdevjobs1&theme=tokyo-night&hide_border=false&locale=pt_BR&date_format=j%20M%5B%20Y%5D" height="165" alt="streak stats" />
-</div>
-
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=lukasdevjobs1&theme=tokyo-night&hide_border=false&area=true" alt="contribution graph" />
 </div>
 
 ---
